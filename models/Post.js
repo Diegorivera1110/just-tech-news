@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
-const { SELECT } = require("sequelize/types/query-types");
+// const { SELECT } = require("sequelize/types/query-types");
 const sequelize = require("../config/connection");
 const { post } = require("../routes/api/user-routes");
 
