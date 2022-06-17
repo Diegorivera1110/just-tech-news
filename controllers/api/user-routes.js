@@ -1,6 +1,6 @@
 const router = require("express").Router();
 // const { REAL } = require('sequelize/types');
-const { User, Post, Vote } = require("../../models");
+const { User, Post, Vote, Comment } = require("../../models");
 
 
 // GET /api/users
