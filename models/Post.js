@@ -1,5 +1,8 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+// const { SELECT } = require("sequelize/types/query-types");
+const sequelize = require("../config/connection");
+const { post } = require("../controllers/api/user-routes");
+
 // create our Post model
 class Post extends Model {
   static upvote(body, models) {
