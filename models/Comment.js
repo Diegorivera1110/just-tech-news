@@ -39,7 +39,7 @@ Comment.init(
         sequelize,
         freezeTableName: true,
         underscored: true,
-        modelName: 'commit'
+        modelName: 'comment'
     }
 );
 
